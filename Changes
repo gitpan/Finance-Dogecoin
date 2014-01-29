@@ -1,5 +1,8 @@
 Finance::Dogecoin Changelog
 ---------------------------
 
+1.20140129.2055 2014-01-29 12:55:46-08:00 America/Los_Angeles
+    - worked around Moo/stricture fatal warnings brokenness
+
 1.20140127.2153 2014-01-27 13:53:14 America/Los_Angeles
     - released the first version on an unsuspecting world

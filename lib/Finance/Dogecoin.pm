@@ -1,8 +1,5 @@
 package Finance::Dogecoin;
-{
-  $Finance::Dogecoin::VERSION = '1.20140127.2153';
-}
-
+$Finance::Dogecoin::VERSION = '1.20140129.2055';
 use strict;
 use warnings;
 
