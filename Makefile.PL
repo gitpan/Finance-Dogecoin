@@ -27,6 +27,7 @@ my %WriteMakefileArgs = (
     "LWP::Protocol::https" => 0,
     "LWP::UserAgent" => 0,
     "Moo" => 0,
+    "URI" => 0,
     "URI::QueryParam" => 0,
     "strict" => 0,
     "warnings" => 0
@@ -38,7 +39,7 @@ my %WriteMakefileArgs = (
     "Test::Most" => 0,
     "lib" => 0
   },
-  "VERSION" => "1.20140129.2055",
+  "VERSION" => "1.20140201.1608",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -56,6 +57,7 @@ my %FallbackPrereqs = (
   "Test::Mock::LWP" => 0,
   "Test::More" => 0,
   "Test::Most" => 0,
+  "URI" => 0,
   "URI::QueryParam" => 0,
   "lib" => 0,
   "strict" => 0,

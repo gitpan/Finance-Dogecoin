@@ -1,5 +1,5 @@
 package Finance::Dogecoin::API;
-$Finance::Dogecoin::API::VERSION = '1.20140129.2055';
+$Finance::Dogecoin::API::VERSION = '1.20140201.1608';
 use 5.010;
 
 use Moo;
@@ -8,6 +8,8 @@ use Moo;
 use warnings NONFATAL => 'all';
 
 use Carp ();
+
+use URI;
 use JSON;
 use HTTP::Headers;
 use LWP::UserAgent;

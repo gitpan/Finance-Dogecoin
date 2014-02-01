@@ -24,6 +24,7 @@ requires:
   LWP::Protocol::https: 0
   LWP::UserAgent: 0
   Moo: 0
+  URI: 0
   URI::QueryParam: 0
   perl: 5.010
   strict: 0
@@ -31,4 +32,4 @@ requires:
 resources:
   homepage: https://github.com/chromatic/Finance-Dogecoin
   repository: https://github.com/chromatic/Finance-Dogecoin.git
-version: 1.20140129.2055
+version: 1.20140201.1608
